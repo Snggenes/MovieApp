@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieData</title>
+    <link rel="stylesheet" href="i.css" />
+  </head>
+  <body>
+    <div id="welcome-page">
+      <div id="welcome-page-con">
+        <div id="info-con">
+          <h2>Sign in</h2>
+          <div id="login-con">
+            <div id="email-con">
+              Email
+              <input id="email" type="text" />
+              <label for="email"></label>
+            </div>
+            <div id="password-con">
+              Password
+              <input id="password" type="text" />
+              <label for="password"></label>
+            </div>
+            <button type="submit" id="login-button" class="all-button">Login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav id="movie-con-nav" style="display: none;">
+      <!-- <img src="./images/movie.jpg" alt="logo" /> -->
+      <h4 class="nav-heading" id="new-popular">New & Popular</h4>
+      <h4 class="nav-heading" id="ratings">High Rated</h4>
+      <h4 class="nav-heading" id="my-list">My List</h4>
+      <h4 class="nav-heading" id="search">Search</h4>
+      <h4 class="nav-heading" id="sign-in">Sign In</h4>
+      <h4 class="nav-heading" id="sign-out" style="display: none;">Sign Out</h4>
+    </nav>
+    <div id="search-container"></div>
+    <div id="movie-con" style="display: none;">
+      <div class="demo-con">
+        <video src="./images/video.mp4" id="video" autoplay muted loop></video>
+        <div id="overview">
+            <p id="demo-name"></p>
+            <p id="demo-para"></p>
+            
+        </div>
+        
+      </div>
+      <div id="movie-list">
+        <h3 class="section-title">Recommended Movies</h3>
+      </div>
+      <div id="high-rated">
+        <h3 class="section-title">High Rated Movies</h3>
+      </div>
+      <h3 class="section-title" id="mylist-heading" style="display: none;">My List</h3>
+      <button id="clear-list">Clear The List</button>
+      <div id="my-list-con">
+        
+      </div>
+    </div>
+
+    <script src="i.js"></script>
+  </body>
+</html>
+
+
